@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #5eb9f0;
+    --heading-color: #343f52;
+    --paragraph-color: #60697b;
+    --skyblue: #e5f4fd;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+}
