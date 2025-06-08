@@ -45,6 +45,10 @@ h3 {
     line-height: 32px;
 }
 
+img {
+    max-width: 100%;
+}
+
 p {
     color: var(--paragraph-color);
     font-size: 17px;
@@ -58,6 +62,24 @@ nav {
 .nav-container {
     display: flex;
     justify-content: space-between;
+
+    ul {
+        display: none;
+        position: absolute;
+        background-color: var(--primary-color);
+        top: 0;
+        left: 0;
+        height: 100vh;
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+
+        a {
+            color: white;
+        }
+    }
 }
 
 ul {
@@ -105,7 +127,7 @@ footer {
 .footer-container {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 
     .btn-primary {
         justify-self: center;
@@ -125,6 +147,7 @@ footer {
 .container {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .hero {
@@ -145,6 +168,7 @@ footer {
 .hero-container {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -161,8 +185,8 @@ footer {
 
 .services-list {
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .service-item {
@@ -204,7 +228,7 @@ footer {
     align-items: center;
     display: grid;
     gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .strategy-cards-container {
@@ -233,13 +257,7 @@ footer {
         width: fit-content;
     }
 
-    &:nth-child(2) {
-        left: 50px;
-    }
 
-    &:nth-child(3) {
-        left: 25px;
-    }
 }
 
 .team {
@@ -249,14 +267,14 @@ footer {
 
 .team-container {
     display: grid;
-    grid-template-columns: 1fr 2fr auto;
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 }
 
 .team-list {
     display: grid;
     grid-column: 1 / -1;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 }
 
@@ -278,14 +296,15 @@ footer {
 
 .team-statistics {
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
 .team-statistics-item {
     align-items: center;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    gap: 10px;
     text-align: center;
 
     h3 {
@@ -313,7 +332,7 @@ footer {
 
 .testimonials-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 }
 
@@ -349,7 +368,7 @@ footer {
 
 .faqs-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 80px;
 }
 
@@ -376,5 +395,93 @@ footer {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+/* media queries */
+@media (min-width: 768px) {
+    /* .nav-container {
+        ul {
+            display: flex;
+        }
+    } */
+
+    .hero-container {
+        flex-wrap: nowrap;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .strategy-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonials-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faqs-container {
+        gap: 30px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-statistics-item {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .services-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-container {
+        grid-template-columns: 1fr 2fr auto;
+    }
+
+    .team-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .testimonials-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .faqs-container {
+        gap: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1280px) {
+    .strategy-card {
+        &:nth-child(2) {
+            left: 50px;
+        }
+
+        &:nth-child(3) {
+            left: 25px;
+        }
+    }
 }
