@@ -1,0 +1,152 @@
+{
+    "services": [
+        {
+            "id": 0,
+            "image": "./images/services/service1.png",
+            "title": "Web Design",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non hic ut dolore eius ex tempore odio tempora quae. In, iste!",
+            "link": "/"
+        },
+        {
+            "id": 1,
+            "image": "./images/services/service2.png",
+            "title": "Graphic Design",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non hic ut dolore eius ex tempore odio tempora quae. In, iste!",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "image": "./images/services/service3.png",
+            "title": "3D Animation",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non hic ut dolore eius ex tempore odio tempora quae. In, iste!",
+            "link": "/"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 0,
+            "author": "Coriss Ambady",
+            "image": "./images/team/te1.jpg",
+            "area": "Finacial Analyst",
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate corporis, sit labore eveniet modi. Autem, debitis quis eius, ducimus dolorem harum ipsum illo doloribus maxime est odit atque quaerat."
+        },
+        {
+            "id": 1,
+            "author": "Coriss Ambady",
+            "image": "./images/team/te1.jpg",
+            "area": "Finacial Analyst",
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate corporis, sit labore eveniet modi. Autem, debitis quis eius, ducimus dolorem harum ipsum illo doloribus maxime est odit atque quaerat."
+        },
+        {
+            "id": 2,
+            "author": "Coriss Ambady",
+            "image": "./images/team/te1.jpg",
+            "area": "Finacial Analyst",
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate corporis, sit labore eveniet modi. Autem, debitis quis eius, ducimus dolorem harum ipsum illo doloribus maxime est odit atque quaerat."
+        },
+        {
+            "id": 3,
+            "author": "Coriss Ambady",
+            "image": "./images/team/te1.jpg",
+            "area": "Finacial Analyst",
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate corporis, sit labore eveniet modi. Autem, debitis quis eius, ducimus dolorem harum ipsum illo doloribus maxime est odit atque quaerat."
+        },
+        {
+            "id": 4,
+            "author": "Coriss Ambady",
+            "image": "./images/team/te1.jpg",
+            "area": "Finacial Analyst",
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate corporis, sit labore eveniet modi. Autem, debitis quis eius, ducimus dolorem harum ipsum illo doloribus maxime est odit atque quaerat."
+        },
+        {
+            "id": 5,
+            "author": "Coriss Ambady",
+            "image": "./images/team/te1.jpg",
+            "area": "Finacial Analyst",
+            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate corporis, sit labore eveniet modi. Autem, debitis quis eius, ducimus dolorem harum ipsum illo doloribus maxime est odit atque quaerat."
+        }
+    ],
+    "faqs": [
+        {
+            "id": 0,
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at eos a ad reprehenderit sequi. Quaerat, vel ipsa iste minima voluptatibus error est perferendis ex quibusdam earum, qui, vitae mollitia"
+        },
+        {
+            "id": 1,
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at eos a ad reprehenderit sequi. Quaerat, vel ipsa iste minima voluptatibus error est perferendis ex quibusdam earum, qui, vitae mollitia"
+        },
+        {
+            "id": 2,
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at eos a ad reprehenderit sequi. Quaerat, vel ipsa iste minima voluptatibus error est perferendis ex quibusdam earum, qui, vitae mollitia"
+        },
+        {
+            "id": 3,
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at eos a ad reprehenderit sequi. Quaerat, vel ipsa iste minima voluptatibus error est perferendis ex quibusdam earum, qui, vitae mollitia"
+        }
+    ],
+    "projects": [
+        {
+            "id": 0,
+            "image": "./images/projects/project1.jpg",
+            "title": "Nombre del projecto",
+            "category": "categoria"
+        },
+        {
+            "id": 1,
+            "image": "./images/projects/project2.jpg",
+            "title": "Nombre del projecto",
+            "category": "categoria"
+        }
+    ],
+    "team": [
+        {
+            "id": 0,
+            "image": "./images/team/te1.jpg",
+            "name": "Coriss Ambady",
+            "area": "Financial Analyst",
+            "slogan": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": 1,
+            "image": "./images/team/te2.jpg",
+            "name": "Coriss Ambady",
+            "area": "Financial Analyst",
+            "slogan": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": 2,
+            "image": "./images/team/te3.jpg",
+            "name": "Coriss Ambady",
+            "area": "Financial Analyst",
+            "slogan": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": 3,
+            "image": "./images/team/te4.jpg",
+            "name": "Coriss Ambady",
+            "area": "Financial Analyst",
+            "slogan": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+    ],
+    "strategyCards": [
+        {
+            "id": 0,
+            "title": "Collect Ideas",
+            "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+            "id": 1,
+            "title": "Data Analysis",
+            "description": "Lorem ipsum dolor sit amet."
+        },
+        {
+            "id": 2,
+            "title": "Finalize Product",
+            "description": "Lorem ipsum dolor sit amet."
+        }
+    ]
+}
