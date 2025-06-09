@@ -63,21 +63,36 @@ nav {
     display: flex;
     justify-content: space-between;
 
+    span {
+        cursor: pointer;
+    }
+
     ul {
         display: none;
-        position: absolute;
-        background-color: var(--primary-color);
-        top: 0;
-        left: 0;
-        height: 100vh;
-        /* display: flex; */
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        padding: 20px 0;
+
+        &.active {
+            display: flex;
+            position: absolute;
+            background-color: var(--primary-color);
+            top: 0;
+            left: 0;
+            height: 100vh;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            padding: 50px 0;
+        }
 
         a {
             color: white;
+        }
+
+        span {
+            position: absolute;
+            right: 15px;
+            top: 20px;
+            cursor: pointer;
+            font-weight: 600;
         }
     }
 }
@@ -403,11 +418,24 @@ footer {
 
 /* media queries */
 @media (min-width: 768px) {
-    /* .nav-container {
+    .nav-container {
+        span {
+            display: none;
+        }
+
         ul {
             display: flex;
+
+
+            a {
+                color: var(--paragraph-color);
+            }
+
+            span {
+                display: none;
+            }
         }
-    } */
+    }
 
     .hero-container {
         flex-wrap: nowrap;
